@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    padding: 10px;
+    margin-top: 70px;
+    background: linear-gradient(rgb(191, 32, 32),rgb(76, 0, 0));
+    color: #fff; 
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.3s;
+}
+.col1
+{
+    background-color: rgb(100, 85, 220);
+}
+.col2
+{
+    background-color: rgb(85, 220, 184);
+}
+.col3
+{
+    background-color: rgb(207, 220, 85);
+}
+#output
+{
+    transition: 0.3s;
+}
+.list-inline-item
+{
+    transition: 0.2s;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17.5px;
+}
+.list-inline-item:hover
+{
+    font-size: 22.5px !important ; 
+    text-shadow: #fff 0px 0px 2px !important;
+}
+.list-inline-item:nth-child(1):hover
+{
+    color: rgb(255, 145, 0);
+}
+.list-inline-item:nth-child(1):active
+{
+    color: rgb(255, 145, 0);
+}
+.list-inline-item:nth-child(2):hover
+{
+    color: rgb(255, 0, 85);
+}
+.list-inline-item:nth-child(2):active
+{
+    color: rgb(255, 0, 85);
+}
+.list-inline-item:nth-child(3):hover
+{
+    color: rgb(0, 255, 38);
+}
+.list-inline-item:nth-child(3):active
+{
+    color: rgb(0, 255, 38);
+}
+.list-inline-item:nth-child(4):hover
+{
+    color: rgb(30, 0, 255);
+}
+.list-inline-item:nth-child(4):active
+{
+    color: rgb(30, 0, 255);
+}
+#inputW, #output
+{
+    transition: 0.5s;
+}
